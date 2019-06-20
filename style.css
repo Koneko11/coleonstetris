@@ -14,10 +14,12 @@ background-size: cover;
 }
 canvas{
   border: solid 5px #fff;
-  height: 100vh;
+  height: 90vh;
   margin-top: 1em;
 }
 h1{
 	color: #FFFFFF;
 	text-transform: uppercase;
+}
+#text-div{
 }

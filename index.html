@@ -9,22 +9,25 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 	<div class="container">
 		<div class="row">
 		<h1>Coleon's Tetris World</h1>
-			<div class="col-lg-4"></div>
-	<div class="col-lg-4">		
-  <canvas id="game" width="240" height="500" />
-</div>
-<div class="col-lg-4">
-	<h3>About<h3>
+			<div class="col-lg-4">
+				
+					<h3>About<h3>
   <h4> Hi! My name is Coleon. I made this game in JavaScript from scratch</h4>	
 	<h3>Instructions<h3>
  <h4> Turn left is "Z" key.<br>
 	Turn right is "X" key.</h4>
-		  	<h4>Your score is:</h4>
+			</div>
+	<div class="col-lg-4">		
+  <canvas id="game" width="240" height="400" />
+</div>
 
+<div class="col-lg-4" id="text-div">
+	<h3>Your score is<h3>
 	  <div id="score">
 	  </div>
 
